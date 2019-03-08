@@ -136,6 +136,11 @@
 		</Build>
 		<Unit filename="/cygdrive/c/Users/Michi/Desktop/ESW/TDDTest/src/main.c">
 			<Option target="TDDTest"/>
+			<Option target="Test"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Michi/Desktop/ESW/TDDTest/src/string_utils.c">
+			<Option target="TDDTest"/>
+			<Option target="Test"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/Michi/Desktop/ESW/TDDTest/test/RunAllTests.cpp">
 			<Option target="Test"/>

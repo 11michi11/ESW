@@ -19,5 +19,5 @@ set_property(TARGET imp_cpputest PROPERTY
         IMPORTED_LOCATION $ENV{CPPUTEST_HOME}/src/CppUTest/libCppUTest.a)
 
 
-add_executable(Test ${TEST})
+add_executable(Test ${TEST} ${SRC})
 target_link_libraries(Test imp_cpputest)

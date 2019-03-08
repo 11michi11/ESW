@@ -143,6 +143,7 @@ src/main.o: src/main.c.o
 # target to build an object file
 src/main.c.o:
 	$(MAKE) -f CMakeFiles/TDDTest.dir/build.make CMakeFiles/TDDTest.dir/src/main.c.o
+	$(MAKE) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/src/main.c.o
 .PHONY : src/main.c.o
 
 src/main.i: src/main.c.i
@@ -152,6 +153,7 @@ src/main.i: src/main.c.i
 # target to preprocess a source file
 src/main.c.i:
 	$(MAKE) -f CMakeFiles/TDDTest.dir/build.make CMakeFiles/TDDTest.dir/src/main.c.i
+	$(MAKE) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/src/main.c.i
 .PHONY : src/main.c.i
 
 src/main.s: src/main.c.s
@@ -161,7 +163,38 @@ src/main.s: src/main.c.s
 # target to generate assembly for a file
 src/main.c.s:
 	$(MAKE) -f CMakeFiles/TDDTest.dir/build.make CMakeFiles/TDDTest.dir/src/main.c.s
+	$(MAKE) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/src/main.c.s
 .PHONY : src/main.c.s
+
+src/string_utils.o: src/string_utils.c.o
+
+.PHONY : src/string_utils.o
+
+# target to build an object file
+src/string_utils.c.o:
+	$(MAKE) -f CMakeFiles/TDDTest.dir/build.make CMakeFiles/TDDTest.dir/src/string_utils.c.o
+	$(MAKE) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/src/string_utils.c.o
+.PHONY : src/string_utils.c.o
+
+src/string_utils.i: src/string_utils.c.i
+
+.PHONY : src/string_utils.i
+
+# target to preprocess a source file
+src/string_utils.c.i:
+	$(MAKE) -f CMakeFiles/TDDTest.dir/build.make CMakeFiles/TDDTest.dir/src/string_utils.c.i
+	$(MAKE) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/src/string_utils.c.i
+.PHONY : src/string_utils.c.i
+
+src/string_utils.s: src/string_utils.c.s
+
+.PHONY : src/string_utils.s
+
+# target to generate assembly for a file
+src/string_utils.c.s:
+	$(MAKE) -f CMakeFiles/TDDTest.dir/build.make CMakeFiles/TDDTest.dir/src/string_utils.c.s
+	$(MAKE) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/src/string_utils.c.s
+.PHONY : src/string_utils.c.s
 
 test/RunAllTests.o: test/RunAllTests.cpp.o
 
@@ -230,6 +263,9 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/string_utils.o"
+	@echo "... src/string_utils.i"
+	@echo "... src/string_utils.s"
 	@echo "... test/RunAllTests.o"
 	@echo "... test/RunAllTests.i"
 	@echo "... test/RunAllTests.s"

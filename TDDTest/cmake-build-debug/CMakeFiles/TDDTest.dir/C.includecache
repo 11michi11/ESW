@@ -6,7 +6,19 @@
 
 #IncludeRegexTransform: 
 
+../include/some_header.h
+
+../include/string_utils.h
+
 /cygdrive/c/Users/Michi/Desktop/ESW/TDDTest/src/main.c
 stdio.h
 -
+some_header.h
+/cygdrive/c/Users/Michi/Desktop/ESW/TDDTest/src/some_header.h
+string_utils.h
+/cygdrive/c/Users/Michi/Desktop/ESW/TDDTest/src/string_utils.h
+
+/cygdrive/c/Users/Michi/Desktop/ESW/TDDTest/src/string_utils.c
+string_utils.h
+/cygdrive/c/Users/Michi/Desktop/ESW/TDDTest/src/string_utils.h
 

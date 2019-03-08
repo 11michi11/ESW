@@ -1,9 +1,17 @@
 #include "CppUTest/TestHarness.h"
+#include "CppUTest/TestHarness_c.h"
 
-TEST_GROUP(Test) {
+extern "C" {
+    #include "string_utils.h"
+#include "some_header.h"
+}
+
+TEST_GROUP(String_Utils) {
 
 };
 
-TEST(Test, FirstTest) {
-    FAIL("Fail test");
+TEST(String_Utils, FirstTest) {
+    char* test = "TEST";
+    CHECK_EQUAL(-1, my_strdiff(test, "TEST"));
+
 }

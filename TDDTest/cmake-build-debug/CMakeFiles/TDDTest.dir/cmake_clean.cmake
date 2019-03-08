@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/TDDTest.dir/src/main.c.o"
+  "CMakeFiles/TDDTest.dir/src/string_utils.c.o"
   "TDDTest.pdb"
   "TDDTest.exe"
   "libTDDTest.dll.a"
