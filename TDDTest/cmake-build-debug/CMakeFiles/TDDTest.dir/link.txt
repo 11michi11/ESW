@@ -1,0 +1,1 @@
+/usr/bin/cc  -Wall -Wextra -g  -Wl,--enable-auto-import CMakeFiles/TDDTest.dir/src/main.c.o  -o TDDTest.exe -Wl,--out-implib,libTDDTest.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

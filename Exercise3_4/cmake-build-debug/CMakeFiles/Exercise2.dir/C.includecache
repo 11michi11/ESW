@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/my_string_func.h
+
+/cygdrive/c/Users/Michi/Desktop/ESW/Exercise3_4/src/my_string_func.c
+stdio.h
+-
+my_string_func.h
+/cygdrive/c/Users/Michi/Desktop/ESW/Exercise3_4/src/my_string_func.h
+

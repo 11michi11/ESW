@@ -1,0 +1,14 @@
+cmake_minimum_required(VERSION 3.13)
+project(Test)
+
+set(CMAKE_C_STANDARD 11)
+set (CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wall -Wextra")
+
+add_library(Test src/library.c src/library.h tests/RunAllTests.cpp)
+
+add_subdirectory(tests)
+add_subdirectory(src)
+
+enable_language(C)
+enable_language(CXX)
+

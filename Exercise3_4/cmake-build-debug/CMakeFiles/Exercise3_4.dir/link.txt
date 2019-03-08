@@ -1,0 +1,1 @@
+/usr/bin/cc -g  -Wl,--enable-auto-import CMakeFiles/Exercise3_4.dir/main.c.o CMakeFiles/Exercise3_4.dir/my_string_func.c.o  -o Exercise3_4.exe -Wl,--out-implib,libExercise3_4.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

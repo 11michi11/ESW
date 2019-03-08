@@ -1,0 +1,1 @@
+/usr/bin/cc  -Wall -Wextra -g  -Wl,--enable-auto-import CMakeFiles/Lib.dir/library.c.o  -o Lib.exe -Wl,--out-implib,libLib.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

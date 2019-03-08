@@ -1,0 +1,1 @@
+/usr/bin/cc  -Wall -Wextra -g  -Wl,--enable-auto-import CMakeFiles/Exercise2.dir/src/addition.c.o CMakeFiles/Exercise2.dir/src/main.c.o CMakeFiles/Exercise2.dir/src/multiplication.c.o CMakeFiles/Exercise2.dir/src/subtraction.c.o  -o Exercise2.exe -Wl,--out-implib,libExercise2.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

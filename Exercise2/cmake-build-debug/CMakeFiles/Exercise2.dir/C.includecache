@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/Michi/Desktop/ESW/Exercise2/include/addition.h
+
+/cygdrive/c/Users/Michi/Desktop/ESW/Exercise2/include/multiplication.h
+
+/cygdrive/c/Users/Michi/Desktop/ESW/Exercise2/include/subtraction.h
+
+/cygdrive/c/Users/Michi/Desktop/ESW/Exercise2/src/addition.c
+
+/cygdrive/c/Users/Michi/Desktop/ESW/Exercise2/src/main.c
+stdio.h
+-
+../include/subtraction.h
+/cygdrive/c/Users/Michi/Desktop/ESW/Exercise2/include/subtraction.h
+../include/addition.h
+/cygdrive/c/Users/Michi/Desktop/ESW/Exercise2/include/addition.h
+../include/multiplication.h
+/cygdrive/c/Users/Michi/Desktop/ESW/Exercise2/include/multiplication.h
+
+/cygdrive/c/Users/Michi/Desktop/ESW/Exercise2/src/multiplication.c
+
+/cygdrive/c/Users/Michi/Desktop/ESW/Exercise2/src/subtraction.c
+../include/subtraction.h
+/cygdrive/c/Users/Michi/Desktop/ESW/Exercise2/include/subtraction.h
+
