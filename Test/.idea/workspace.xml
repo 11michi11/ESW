@@ -12,7 +12,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fac44c34-67a0-4b4d-a1b3-2cbb40780f9f" name="Default Changelist" comment="" />
+    <list default="true" id="fac44c34-67a0-4b4d-a1b3-2cbb40780f9f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../TDDTest/include/some_header.h" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -98,6 +100,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -121,6 +126,7 @@
     <option name="width" value="1940" />
     <option name="height" value="1050" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -206,12 +212,12 @@
       <workItem from="1549803771521" duration="300000" />
       <workItem from="1550215488417" duration="412000" />
       <workItem from="1550216084583" duration="7497000" />
-      <workItem from="1552030126035" duration="1082000" />
+      <workItem from="1552030126035" duration="1489000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16427000" />
+    <option name="totallyTimeSpent" value="16834000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">

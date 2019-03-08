@@ -3,10 +3,9 @@ project(TDDTest)
 
 set(CMAKE_C_STANDARD 11)
 set (CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wall -Wextra")
+
 include_directories(include)
-
 file(GLOB SRC "src/*.c")
-
 file(GLOB TEST "test/*.cpp")
 
 add_executable(TDDTest ${SRC})
